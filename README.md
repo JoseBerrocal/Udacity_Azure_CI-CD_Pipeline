@@ -3,3 +3,6 @@
 # Udacity_Azure_CI-CD_Pipeline
 We will test the creation of the pipeline
  
+The prove the github action was successful
+
+![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/github_action_build.png "GitHub Action Passed")
