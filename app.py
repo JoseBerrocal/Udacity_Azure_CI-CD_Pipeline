@@ -65,4 +65,4 @@ def predict():
 
 if __name__ == "__main__":
     clf = joblib.load("boston_housing_prediction.joblib")
-    app.run(host='0.0.0.0', port=80, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)

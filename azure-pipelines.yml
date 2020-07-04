@@ -85,3 +85,6 @@ stages:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+              appType: 'webAppLinux'
+              runtimeStack: 'PYTHON|3.7'
+              startUpCommand: 'gunicorn --bind=0.0.0.0 --timeout 600 app:app'
