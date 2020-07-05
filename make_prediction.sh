@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PORT=5000
+PORT=8000
 echo "Port: $PORT"
 
 # POST method predict
@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://azure-cicd-pipeline.azurewebsites.net:$PORT/predict
+     -X POST https://azure-cicd-pipeline.azurewebsites.net/predict
