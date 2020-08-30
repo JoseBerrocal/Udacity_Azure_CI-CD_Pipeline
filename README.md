@@ -122,6 +122,10 @@ The following output is expected:
 
 ![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/cicdpipeline_deploy_App_Service.png)
 
+As part of the requirents of the project I will modify Makefile to run "make all" command  considering hello.py and test_hello.py files
+
+![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/fixpro/images/cicdpipeline_azure_shell_make_all.png)
+
 Search of the deployed app in the App Service and select Browser
 
 ![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/cicdpipeline_app_service.png)
