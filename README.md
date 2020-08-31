@@ -114,17 +114,20 @@ git clone https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline.git
 ```
 ![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/cicdpipeline_clone_azure_cloud_shell.png)
 
+As part of the requirents of the project I will modify Makefile to run "make all" command  considering hello.py and test_hello.py files
+
+![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/fixpro/images/cicdpipeline_azure_shell_make_all.png)
+
 To deploy the application in the App Service execute the following, in this case the App Service name will be "azure-cicd-pipeline" and will be located in westus2
 ```bash
+#Option 1
+sh commands.sh
+#Option 2
 az webapp up --sku F1 -n azure-cicd-pipeline --location westus2
 ```
 The following output is expected:
 
 ![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/cicdpipeline_deploy_App_Service.png)
-
-As part of the requirents of the project I will modify Makefile to run "make all" command  considering hello.py and test_hello.py files
-
-![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/fixpro/images/cicdpipeline_azure_shell_make_all.png)
 
 Search of the deployed app in the App Service and select Browser
 
