@@ -123,6 +123,10 @@ To deploy the application in the App Service execute the following, in this case
 #Option 1
 sh commands.sh
 #Option 2
+python3 -m venv ~/.venv
+source ~/.venv/bin/activate
+pip install -r requirements.txt
+export FLASK_APP=app.py
 az webapp up --sku F1 -n azure-cicd-pipeline --location westus2
 ```
 The following output is expected:
