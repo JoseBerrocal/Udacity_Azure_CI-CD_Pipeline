@@ -178,6 +178,8 @@ To improve the project will be good to have more detailed explanation on what st
 
 ## Demo 
 
+Please click on the images to see the videos
+
 Part 1:
 
 [![screencast screenshot](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/cicdpipeline_demo_part1.png)](https://youtu.be/faU-M6ktlAQ)
