@@ -116,7 +116,7 @@ git clone https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline.git
 
 As part of the requirents of the project I will modify Makefile to run "make all" command  considering hello.py and test_hello.py files
 
-![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/fixpro/images/cicdpipeline_azure_shell_make_all.png)
+![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/cicdpipeline_azure_shell_make_all.png)
 
 To deploy the application in the App Service execute the following, in this case the App Service name will be "azure-cicd-pipeline" and will be located in westus2
 ```bash
@@ -143,6 +143,13 @@ sh make_prediction.sh
 ```
 ![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/cicdpipeline_azure_shell_make_prediction.png)
 
+A small testing can be do using Locust
+```bash
+locust -f locustfile.py
+```
+You can get the following output
+
+![alt text](https://github.com/JoseBerrocal/Udacity_Azure_CI-CD_Pipeline/blob/master/images/cicdpipeline_locust.png)
 
 ### 4. Running the application in Azure App Service using Azure DevOps
 
